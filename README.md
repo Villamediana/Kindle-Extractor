@@ -1,4 +1,4 @@
-# kindle_extract
+# 📚 Kindle Extractor
 
 > Extrai o texto dos seus próprios livros do **Kindle Cloud Reader** — sem VNC, sem display gráfico, sem PC local rodando nada durante a extração. Tudo headless, num servidor só.
 
@@ -45,7 +45,7 @@ Estado de cada livro é salvo em `output/<titulo>.state.json` a cada página, en
 **Tudo que você precisa rodar:**
 
 ```bash
-git clone https://github.com/Villamediana/kindle_extract && cd kindle_extract
+git clone https://github.com/Villamediana/Kindle-Extractor && cd Kindle-Extractor
 npm install
 npm run server
 ```
@@ -157,7 +157,7 @@ npm run extract
 ## Estrutura
 
 ```
-kindle_extract/
+Kindle-Extractor/
 ├── public/                  UI estática (HTML + CSS + JS)
 ├── src/
 │   ├── server.js            Express + SSE (porta 3400)
